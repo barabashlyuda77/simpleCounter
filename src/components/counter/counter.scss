@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    padding-top: 30px;
+
+    .fields_wrapper {
+        display: flex;
+        padding: 0 20px;
+
+        .field {
+          width: 33%;
+        }
+
+        .field, .button {
+            border: 1px solid grey;
+            text-align: center;
+        }
+
+        .button {
+            width: 34%;
+            margin: 0 20px;
+        }
+    }
+
+    .text {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 40px;
+    }
+}
